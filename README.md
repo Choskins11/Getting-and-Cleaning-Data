@@ -1,5 +1,5 @@
-# Getting-and-Cleaning-Data
-Final project for Getting and Cleaning Data course
+## Getting-and-Cleaning-Data
+#Final project for Getting and Cleaning Data course
 
 #Information regarding the dataset used for the project
 
@@ -20,6 +20,7 @@ The general flow of the code is as follows:
  - Bind subject, activity and data into one data frames
  - Add column names and replace activtiy code with character values
  
- - Use reshape2 to melt and dcase the data and write out to a file named secondtidy.txt
+ For second tidy dataset:
+  - Use reshape2 to melt and dcast to reshape the finaldata object from the first part of the project. Then write out to a file named secondtidy.txt
  
  See codebook.md for variable names and definitions.
